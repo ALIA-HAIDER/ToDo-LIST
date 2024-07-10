@@ -1,0 +1,101 @@
+*{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: #575151;
+    margin-top: 5%;
+    margin: 2%;
+    padding: 3%;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 10px 10px #ccc7c7;;
+
+    
+}
+
+.formone{
+    background-color: #f6ecca;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    width: 70%;
+    height: 10%;
+    border-radius: 15%;
+    box-shadow: 0px 2px 10px #ccc7c7;;
+
+    
+    
+}
+.formpart{
+    height: 100%;
+    border-radius: 5%;
+    margin: 1%;
+    box-shadow: 0px 2px 10px #141111;
+
+    
+}
+#desc{
+    height: 90%;
+}
+#btn1{
+    width: 45%;
+    background-color: #F9D689;
+}
+.taskbox{
+    background-color: #F5E7B2;
+    width: 70%;
+    padding: 1%;
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+.tasksheet{
+    background-color: #F5E7B2;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2%;
+}
+.titlebox{
+    background-color:white ;
+    /* border-radius: 10%; */
+    border-width: 5px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    min-width: 200px;
+    margin-left: 30%;
+
+}
+.dexbox{
+    background-color:white ;
+    /* border-radius: 10%; */
+    border-width: 5px;
+    border: black;
+    min-width: 500px;
+    display: flex;
+    justify-content: center;
+}
+.tandd{
+    background-color: #F9D689;
+    padding: 1%;
+    align-items: flex-start;
+    width: 70%;
+}
+.btn2{
+    width: 50px;
+    height: 50px;
+    font-size: xx-large;
+    border-radius: 50%;
+    background-color: rgb(247, 87, 87);
+}
